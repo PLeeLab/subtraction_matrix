@@ -1,11 +1,11 @@
-#################################################
-# Calculate the Subtraction Matrix given a vector
+######################################################
+# Calculate the Subtraction Matrix of a given a vector
 #
 # Juan C. Villada, Patrick KH Lee
 # School of Energy and Environment
 # City University of Hong Kong
 # 2017
-#################################################
+#####################################################
 
 values_file <- list.files(pattern = "values.txt")
 samples_matrix <- as.matrix(read.delim2(values_file, header = TRUE, row.names = 1))

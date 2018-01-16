@@ -1,4 +1,6 @@
-# Subtraction Matrix
+# Calculate Subtraction Matrix
+
+Calculate the Subtraction Matrix of a given a vector
 
 1. Put the files `values.txt` and `subtraction_matrix.R` in the same folder.
 2. Execute in the `Terminal`:

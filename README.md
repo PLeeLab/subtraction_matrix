@@ -11,4 +11,4 @@ $ Rscript subtraction_matrix.R
 
 > The Warning message: "NAs introduced by coercion" indicates you have some non-numeric value(s) in your `values.txt` file.
 
-3. The output matrix should be in `subtraction_matrix.txt`.
+3. The output matrix should be in a Comma Separate Value (.csv) file named `subtraction_matrix.csv`.

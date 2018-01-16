@@ -17,4 +17,5 @@ for(i in (1:length(samples_values)) ){
 }
 rownames(subtraction_matrix) <- rownames(samples_matrix)
 colnames(subtraction_matrix) <- rownames(samples_matrix)
-write.table(x = subtraction_matrix, file = "subtraction_matrix.txt", quote = F, sep = "\t")
+write.csv(x = subtraction_matrix, file = "subtraction_matrix.csv", quote = F)
+#write.table(x = subtraction_matrix, file = "subtraction_matrix.txt", quote = F, sep = "\t", row.names = T, col.names = T)
